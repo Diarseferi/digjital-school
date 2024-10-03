@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebAdv</title>
 </head>
 <body>
     <form>
+        <fieldset>
+        <legend>Personal Information:</legend>
         <label for="firstname">First name:</label>
-        <input type="text" id="firstname" name="firstname"><br>
+        <input type="text" id="firstname" name="firstname" placeholder="Emri"><br>
         <label for="lastname">Last name:</label>
-        <input type="text" id="lastname" name="lastname"><br>
+        <input type="text" id="lastname" name="lastname" disabled><br>
         <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br>
+        <input type="text" id="email" name="email" required><br>
         <label for="password">Password:</label>
-        <input type="text" id="password" name="password"><br>
-        <input type="submit" name="submit" id="submit"><br>
-
-        <label>Gender:</label>
-
+        <input type="text" id="password" name="password"  size="40"><br>
+        
+    
+        <label>Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
+        <label for="female">Female</label><br><br>
 
-        <label>Hoobies:</label><br>
+        <label>Hoobies:</label>
         <input type="checkbox" id="gaming" name="gaming" value="gaming">
         <label for="gaming">Gaming</label><br>
         <input type="checkbox" id="futboll" name="futboll" value="futboll">
         <label for="futboll">Futboll</label><br>
         <input type="checkbox" id="basketboll" name="basketboll" value="basketboll">
-        <label for="basketboll">Basketboll</label><br>
+        <label for="basketboll">Basketboll</label><br><br>
 
         <input type="submit" name="submit" id="submit"><br>
+
+        <label for="pet">Select a pet:</label>
+        <select id="pet" name="pet">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Horse">Horse</option>
+        </select><br><br>
+        <textarea name="message" rows="20" cols="20"></textarea><br><br>
+        <input type="submit" id="submit" name="submit">
+    </fieldset>
     </form>
+
+    <article>
+        <h2>HTML</h2>
+        <p>Ky eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikullKy eshte ni artikull</p>
+    </article>
+
+    <details>
+        <summary>Digital School</summary>
+        <p>Digital school is an institution which offers programming courses for kids and adults!</p>
+    </details>
+
+    <figure>
+        <img src="fotol.jpg" alt="HTML" width="250" height="250">
+        <figcaption>Fig.1  - HTML Code</figcaption>
+    </figure>
+
+    <section>
+        <h2>Itruduction</h2>
+        <p>This course will teach you how to create webpages using HTML,CSS, Javascript and PHP progsaming languages</p>
+    </section>
 </body>
 </html>
