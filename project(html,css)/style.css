@@ -1,33 +1,273 @@
-
-header {
-    background-color: #003366;  
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
+body {
+    margin: 0 auto;
+    background-color: rgb(15, 20, 162)
+  }
+  nav ul{
+    padding-top:30px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden; 
+    background-color: rgb(15, 20, 162);
+  }
+  nav li{
+    float:left;
+  }
+  nav li a {
+    display: block;
+    color: white;
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: #fff;
+    padding: 16px;
     text-decoration: none;
-    font-size: 18px;
-    text-transform: uppercase;
-}
+    font-size: 20px;
+    font-family:Monospace;
+  }
+  nav li a:hover {
+    background-color: white;
+    color: black;
+    font-size:25px;
+  }
+  .logo {
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .reali {
+    
+    width: 100%;
+    height: 824px;
+  }
+  .newsi {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  .joselu1 {
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+    float: left;
+  }
+  .jude {
+    margin-left: 50px;
+    width: 600px;
+    height: 350px;
+  }
+  .espana {
+    margin-left: 50px;
+    width: 600px;
+    height: 350px;
+  }
+  .h1-joselu{
+    float: left;
+    color: white;
+    margin-left: 50px;
+    max-width: 500px;
+  }
+  .h1-jude {
+    margin-left: 50px;
+    max-width: 600px;
+    float: left;
+    color: white;
+  }
+  .h1-espana {
+    margin-left: 50px;
+    max-width: 600px;
+    color: white;
+    float: left;
+  }
+  .teami {
+    clear: left;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+  .ekipa {
+    margin-left: 140px;
+    width: 80%;
+    height: 80%;
+  }
+  .ul1{
+    list-style: none;
+    font-size: 25px;
+    margin-left: 150px;
+    font-weight: bold;
+    float: left;
+  }
+  .ul2{
+    list-style: none;
+    font-size: 25px;
+    margin-left: 150px;
+    font-weight: bold;
+    float: left;
+  }
+  .ul3{
+     list-style: none;
+    font-size: 25px;
+    margin-left: 150px;
+    font-weight: bold;
+    float: left;
+  }
+  .footeri{
+    clear: left;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+  }
+  @media only screen and (max-width: 700px) {
+    body{
+      background-color: black;
+    }
+    img {
+      width: 50%;
+      height: 50%;
+    }
+    p{ 
+      max-width: 50%;
+    }
+    h1 {
+      max-width: 50%;
+    }
+    li {
+      color: white;
+    }
+    footer {
+      width: 100%;
+    }
+  }
 
-nav ul li a:hover {
-    border-bottom: 2px solid #ff5733;
-}
+/* Kodi i kontaktit*/
+body {
+    background-color: rgb(15, 20, 162);
+    margin: 0 auto;
+  }
+  nav ul{
+    padding-top:30px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden; 
+    background-color: rgb(15, 20, 162);
+  }
+  nav li{
+    float:left;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Monospace;
+  }
+  nav li a:hover {
+    background-color: white;
+    color: black;
+    font-size:25px;
+  }
+  p {
+    font-size: 30px;
+   text-align: center;
+   color: white;
+   background-color: black;
+   padding: 10px;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+   }
+   .footeri{
+    clear: left;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 460px;
+  }
+/* aboutus kodi*/
+body {
+    background-color: rgb(15, 20, 162);
+    margin: 0 auto;
+  }
+  nav ul{
+    padding-top:30px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden; 
+    background-color: rgb(15, 20, 162);
+  }
+  nav li{
+    float:left;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:Monospace;
+  }
+  nav li a:hover {
+    background-color: white;
+    color: black;
+    font-size:25px;
+  }
+  p {
+    font-size: 30px;
+   text-align: center;
+   color: white;
+   background-color: black;
+   padding: 10px;
+  }
+  .p-aboutus {
+    max-width: 1000px;
+    font-size: 25px;
+   margin-left: 500px;
+   float: left;
+   background-color: rgb(0, 9, 90);
+   color: white;
+   padding: 10px;
+  }
+  .kupat {
+    margin-left: 180px;
+  }
+  table, th, td {
+  
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-left:780px;
+  }
+  th, td{
+    padding:16px;
+    text-align:center;
+  }
+  thead{
+    background-color:yellow;
+    color: black;
+  }
+  tbody{
+    background-color:white;
+    color:black;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+   }
+   .footeri{
+    clear: left;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 460px;
+  }
+  
