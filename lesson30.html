@@ -3,15 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style30.css" type="text/css">
     <title>lesson 30</title>
 </head>
 <body>
     <!-- <input type="text" id="input_id">
     <button id="btn_id">Show</button>
     <h1 id="text_id"></h1> -->
-    <input type="number" id="input">
+    <!-- <input type="number" id="input">
     <button id="btn">click</button>
-    <h1 id="h1"></h1>
+    <h1 id="h1"></h1> -->
+
+    <h1>digital school clock</h1>
+    <h2 id="clock">clock goes here</h2>
+    <picture>
+        <img src="foto/ds_clock.png" id="clock">
+    </picture>
+    <h4>Set up wake time</h4>
+
+    <select  id="wakeUpTimeSelector">
+        <option value="1">1 AM - 2AM</option>
+        <option value="2">2 AM - 3AM</option>
+        <option value="3">3 AM - 4AM</option>
+        <option value="4">4 AM - 5AM</option>
+        <option value="5">5 AM - 6AM</option>
+        <option value="6">6 AM - 7AM</option>
+        <option value="7">7 AM - 8AM</option>
+        <option value="8" selected>8 AM - 9AM</option>
+        <option value="9">9 AM - 10AM</option>
+        <option value="10">10 AM - 11AM</option>
+    </select>
+
+    <h4>Set digital school class time</h4>
+    <select  id="dsTimeSelector">
+        <option value="11">1 PM - 2PM</option>
+        <option value="12">2 PM - 3PM</option>
+        <option value="13">3 PM - 4PM</option>
+        <option value="14">4 PM - 5PM</option>
+        <option value="15">5 PM - 6PM</option>
+        <option value="16">6 PM - 7PM</option>
+    </select>
+
+    <h4>Set sleep time</h4>
+    <select  id="sleepTimeSelector">
+        <option value="16">8 PM - 9PM</option>
+        <option value="17">9 PM - 10PM</option>
+        <option value="18">10 PM - 11PM</option>
+        <option value="19">11 PM - 12PM</option>
+        <option value="20">12 PM - 1AM</option>
+        <option value="21">1 AM - 2AM</option>
+    </select>
 
     <script src="javascript/lesson30.js"></script>
 </body>
